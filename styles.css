@@ -1,0 +1,43 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border-color: rgb(53, 52, 52);
+    border-style: solid;
+    border-width:10px; /* Add border style always*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.input
+{
+   
+   background-color: rgb(236, 233, 233);
+    height: 10vh;
+    width: 50vh;
+    border-radius: 10px;
+    border-color: black;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 50vh;
+    background-color: rgb(70, 66, 66);
+    border-radius: 10px;
+    border-color: black;
+}
